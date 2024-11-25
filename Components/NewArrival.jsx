@@ -52,7 +52,7 @@ export default function NewArrival() {
               key={product.id}
               className="border rounded-lg py-1 px-2 flex flex-col items-center"
             >
-              <Link href={`/product/${product.id}`} passHref>
+              <Link href={`/shop/${product.id}`} passHref>
               <Image
                 src={product.image }
                 width={300}

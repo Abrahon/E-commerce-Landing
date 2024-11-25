@@ -25,7 +25,7 @@ const Navbar = () => {
         <Link href="/" className="hover:text-voilet-400">
           Home
         </Link>
-        <Link href="/shop" className="hover:voilet-400">
+        <Link href="/shop/:id" className="hover:voilet-400">
           Shop
         </Link>
         <Link href="/deals" className="hover:text-voilet-400">

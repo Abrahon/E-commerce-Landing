@@ -42,7 +42,7 @@ const BigDeal = () => {
             {/* Product Image */}
             <Link
               href={{
-                pathname: `/product/${item.id}`,
+                pathname: `/shop/${item.id}`,
                 query: { title: item.title, price: item.price, image: item.image },
               }}
             >
